@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "outDir": "../dist/server/",
+        "resolveJsonModule": true
+    },
+
+    "include": ["**/*.ts", "**/*.json"],
+
+    "exclude": ["node_modules", "./**/*.spec.ts"]
+}
